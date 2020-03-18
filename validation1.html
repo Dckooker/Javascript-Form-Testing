@@ -1,0 +1,75 @@
+<html> 
+<head>
+<title>
+      Validation Form
+</title>
+<meta charset = "utf-8"/>
+<style>
+.errorMessage{color: red;}
+</style>
+<script src="./validation1.js"></script>
+</head>
+
+<body>
+<h1>
+  Validation Form
+</h1>
+<form id="validationForm" action="" >
+  <fieldset>
+    <legend>Contact Information</legend>
+    <p id = "firstName">
+      <label style="padding-left: 0px;"for="firstName">First Name</label> 
+      <input id="firstName" name="firstName" />
+     
+    </p>
+	 <p id = "lastName">
+      <label style="padding-left: 1px;"for="lastName">Last Name</label> 
+      <input id="lastName" name="lastName" />
+     
+    </p>
+    <p id = "Gender" style="padding-left: 24px;">
+	Gender
+	  
+      <select id ="Gender" name="Gender">
+	    <option selected disabled>Select a Gender</option>
+		<option value="Male">Male</option>
+		<option value="Female">Female</option>
+	  </select>
+      
+    </p>
+	<p id = "State" style="padding-left: 39px;">
+	State
+	  
+      <select id ="State" name="State">
+	    <option selected disabled>Select a State</option>
+		<option value="California">California</option>
+		<option value="Florida">Florida</option>
+		<option value="New York">New York</option>
+		<option value="Texas">Texas</option>
+		<option value="Hawaii">Hawaii</option>
+		<option value="Washington">Washington</option>
+		<option value="Colorado">Colorado</option>
+		<option value="Virginia">Virginia</option>
+		<option value="Iowa">Iowa</option>
+		<option value="Arizona">Arizona</option>
+	  </select>
+	  
+	  
+      
+    </p>
+	
+
+	
+	<br>
+	
+	<p style="padding-left: 78px;">
+      <input type="button" id="continue" name="continue" value="Continue" onClick= validate1(); />
+    </p>
+      
+	   
+   
+	
+ 
+
+</body>
+</html>

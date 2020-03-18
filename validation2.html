@@ -1,0 +1,47 @@
+<html> 
+
+<title>
+    Contact Information
+</title>
+<meta charset = "utf-8"/>
+<style>
+.errorMessage{color: red;}
+</style>
+<script src="./validation2.js"></script>
+
+<body>
+<h1>
+  Contact Information
+</h1>
+<form id="validationForm" action="" >
+  <fieldset>
+    <legend>Contact Information</legend>
+	
+	
+		<p id = "email">
+		  <label style="padding-left: 15px;"for="email">Email</label> 
+		  <input id="email" name="email" />
+		</p>
+		
+		
+		<p id = "phone">
+		  <label style="padding-left: 13px;"for="phone">Phone</label> 
+		  <input id="phone" name="phone" />
+		</p>
+		
+		
+		<p id = "address">
+		  <label style="padding-left: 1px;"for="address">Address</label> 
+		  <input id="adress" name="address" /> 
+		</p>
+		
+		
+		<br>
+		
+		<p style="padding-left: 78px;">
+		  <input type="button" id="submit" name="submit" value="Submit" onClick= validate2(); />
+		</p>
+      
+	
+</body>
+</html>
